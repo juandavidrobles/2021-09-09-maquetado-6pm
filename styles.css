@@ -1,0 +1,48 @@
+header {
+  background-color: gray;
+}
+
+article {
+  background-color: red;
+  margin: 10px 0;
+}
+
+.aside {
+  background-color: green;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: orange;
+}
+
+.nav {
+  background-color: springgreen;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.section {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.section > * {
+  flex-grow: 1;
+}
+
+.header {
+  height:80px;
+}
+
+.flex {
+  display: flex;
+  min-height: 400px;
+  margin: 10px 0;
+}
+
+.footer {
+  height:80px;
+}
